@@ -57,8 +57,8 @@ We remove class `world` and we merge it with class `hello`. i.e we copy
 all the methods from class `world` to class `hello`.
 
  
-Class:hello
------------
+Class:hello (modified)
+----------------------
 ```java
 class hello {
     void m() {
