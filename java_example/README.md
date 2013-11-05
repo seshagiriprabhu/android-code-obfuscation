@@ -120,5 +120,4 @@ Run the program
 ```bash
 $ java CLASSNAME
 ```
-CLASSNAME = {'hellouser', 'hellouser\_new', 'worlduser',
-'worlduser\_new'}
+CLASSNAME = {'hellouser', 'hellouser\_new', 'worlduser'}
