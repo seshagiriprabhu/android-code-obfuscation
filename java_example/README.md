@@ -84,7 +84,7 @@ class hellouser {
 }
 ```
 
-class: worlduser (modified)
+Class: worlduser (modified)
 ---------------------------
 
 ```java
