@@ -1,8 +1,8 @@
 Java class obfuscation using merge
 =================================
 
-Class hello:
-------------
+Class hello (benign)
+--------------------
 
 ```java
 class hello { 
@@ -12,7 +12,7 @@ class hello {
 }
 ```
 
-Class: world (malicous)
+Class: world (malicious)
 ----------------------
 
 ```java
@@ -23,8 +23,8 @@ class world {
 }
 ```
 
-Class: hellouser
-----------------
+Class: hellouser (benign)
+-------------------------
 ```java
 class hellouser {
     hellouser() {
@@ -37,8 +37,8 @@ class hellouser {
 }
 ```
 
-Class: Worlduser
-----------------
+Class: worlduser (malicious)
+----------------------------
 ```java
 class worlduser {
     worlduser() {
