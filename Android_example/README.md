@@ -81,7 +81,7 @@ public class HelloWorld extends Activity {
 }
 ```
 
-## App B : MyAndroidApp (Malicious_
+## App B : MyAndroidApp (Malicious)
 
 This application just displays a dialog box
 
