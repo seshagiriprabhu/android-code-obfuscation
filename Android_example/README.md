@@ -21,7 +21,7 @@ There are a lot of challenges here. We still want App A to function as
 it normally would. And App B to function as it normally would. 
 
 
-## App A : HelloWorld
+## App A : HelloWorld (benign)
 
 This application just displays a string HelloWorld.
 
@@ -81,7 +81,7 @@ public class HelloWorld extends Activity {
 }
 ```
 
-## App B : MyAndroidApp
+## App B : MyAndroidApp (Malicious_
 
 This application just displays a dialog box
 
