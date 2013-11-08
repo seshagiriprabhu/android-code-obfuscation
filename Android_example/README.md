@@ -1,11 +1,6 @@
 Merging two Android Applications
 ================================
 
-```
-In-order to test the android applications you have to install 
-[Android Developer Tool
-(ADT)](http://developer.android.com/sdk/index.html) on your machine.
-```
 
 Say there is App A (`HelloWorld`), with class files, A1.class, A2.class,
 etc.
@@ -30,8 +25,7 @@ it normally would. And App B to function as it normally would.
 
 This application just displays a string HelloWorld.
 
-![alt
-text](https://github.com/seshagiriprabhu/android-code-obfuscation/blob/master/Android_example/img/HelloWorld.png)
+![alt text](./img/HelloWorld.png)
 
 ```bash
 HelloWorld
@@ -119,8 +113,7 @@ public class HelloWorld extends Activity {
 
 This application just displays a dialog box
 
-![alt
-text](https://github.com/seshagiriprabhu/android-code-obfuscation/blob/master/Android_example/img/MyAndroidApp.png)
+![alt text](./img/MyAndroidApp.png)
 
 ```bash
 MyAndroidApp
@@ -339,7 +332,9 @@ dialog.findViewById(R.id.dialogButtonOK);
     }
 }  
 ```
-![alt
-text](https://github.com/seshagiriprabhu/android-code-obfuscation/blob/master/Android_example/img/HelloWorld_MyAndroidApp.png)
-![alt
-text](https://github.com/seshagiriprabhu/android-code-obfuscation/blob/master/Android_example/img/HelloWorld_MyAndroidApp1.png)
+
+![alt text](./img/HelloWorld_MyAndroidApp.png)
+![alt text](./img/HelloWorld_MyAndroidApp1.png)
+
+PS: In-order to test the android applications you need to install 
+on your machine. [ADT](http://developer.android.com/sdk/index.html) 
