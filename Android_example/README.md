@@ -205,7 +205,7 @@ public class MainActivity extends Activity {
         image.setImageResource(R.drawable.ic_launcher);
 
         Button dialogButton = (Button)
-dialog.findViewById(R.id.dialogButtonOK);
+        dialog.findViewById(R.id.dialogButtonOK);
         // if button is clicked, close the custom dialog
         dialogButton.setOnClickListener(new OnClickListener() {
             @Override
@@ -298,8 +298,6 @@ public class HelloWorld_MyAndroidApp extends Activity {
 
         @Override
         public boolean onCreateOptionsMenu(Menu menu) {
-                // Inflate the menu; this adds items to the action bar
-if it is present.
                 getMenuInflater().inflate(R.menu.hello_world, menu);
                 return true;
         }
@@ -318,7 +316,7 @@ if it is present.
         image.setImageResource(R.drawable.ic_launcher);
 
         Button dialogButton = (Button)
-dialog.findViewById(R.id.dialogButtonOK);
+        dialog.findViewById(R.id.dialogButtonOK);
         // if button is clicked, close the custom dialog
         dialogButton.setOnClickListener(new OnClickListener() {
             @Override
