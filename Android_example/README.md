@@ -30,35 +30,7 @@ This application just displays a string HelloWorld.
 ```bash
 HelloWorld
 ├── AndroidManifest.xml
-├── assets
-├── bin
-│   ├── AndroidManifest.xml
-│   ├── classes
-│   │   └── com
-│   │       └── example
-│   │           └── helloworld
-│   └── res
-├── gen
-│   └── com
-│       └── example
-│           └── helloworld
-│               ├── BuildConfig.java
-│               └── R.java
-├── ic_launcher-web.png
-├── libs
-│   └── android-support-v4.jar
-├── proguard-project.txt
-├── project.properties
 ├── res
-│   ├── drawable-hdpi
-│   │   └── ic_launcher.png
-│   ├── drawable-ldpi
-│   ├── drawable-mdpi
-│   │   └── ic_launcher.png
-│   ├── drawable-xhdpi
-│   │   └── ic_launcher.png
-│   ├── drawable-xxhdpi
-│   │   └── ic_launcher.png
 │   ├── layout
 │   │   └── activity_hello_world.xml
 │   ├── menu
@@ -118,31 +90,6 @@ This application just displays a dialog box
 ```bash
 MyAndroidApp
 ├── AndroidManifest.xml
-├── assets
-├── bin
-│   ├── AndroidManifest.xml
-│   ├── classes
-│   │   └── com
-│   │       └── mkyong
-│   │           └── android
-│   │               ├── BuildConfig.class
-│   │               ├── MainActivity$1.class
-│   │               ├── MainActivity.class
-│   │               ├── R$attr.class
-│   │               ├── R.class
-│   │               ├── R$drawable.class
-│   │               ├── R$id.class
-│   │               ├── R$layout.class
-│   │               └── R$string.class
-│   └── res
-├── gen
-│   └── com
-│       └── mkyong
-│           └── android
-│               ├── BuildConfig.java
-│               └── R.java
-├── proguard.cfg
-├── project.properties
 ├── res
 │   ├── drawable
 │   │   └── ic_launcher.png
