@@ -337,4 +337,4 @@ dialog.findViewById(R.id.dialogButtonOK);
 ![alt text](./img/HelloWorld_MyAndroidApp1.png)
 
 PS: In-order to test the android applications you need to install 
-on your machine. [ADT](http://developer.android.com/sdk/index.html) 
+[ADT](http://developer.android.com/sdk/index.html) on your machine.
