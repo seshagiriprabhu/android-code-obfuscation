@@ -1,7 +1,6 @@
 *
 !decompile.sh
-!decompilers/apktool.jar  
-!decompilers/dex2jar-0.0.9.15.zip  
-!decompilers/jad
+!decompilers/
 !*.apk
 !.gitignore
+!setup_environment.sh
