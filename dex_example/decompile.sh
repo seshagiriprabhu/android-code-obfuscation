@@ -43,18 +43,20 @@ mv -v classes-dex2jar.jar $filename/
 
 #$dec/jad $filename/classes-dex2jar.jar
 unzip $filename/classes-dex2jar.jar -d $filename
-rm -rf $filename/android
+#rm -rf $filename/android
 
 if [ ! -d $filename/src ]
 then
     mkdir -v $filename/src
 fi
+exit
+#for f in $(find $filename -iname "*.class")
+#do
+    #jad -d $filename/src -v -noctor  -r  -f -safe -s java -lnc $f
+#done
+python decompilers/Krakatau/decompile.py -nauto -out $filename/src -r $filename/com
 
-for f in $(find $filename -iname "*.class")
-do
-    jad -d $filename/src -v -o -noctor -safe -r  -s java -lnc $f
-done
-
+apktool if $apk_filename
 apktool --verbose decode  $apk_filename $filename/$filename
 
 #rm -rf $filename/res
